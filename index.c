@@ -1,12 +1,10 @@
 #include <stdio.h>
+#include <string.h>
+
 int main(){
-    int nilai=1092;
-    int x;
-    char halo[] = "halo";
-    printf("%s\t%d\n",halo,nilai);
-    printf("%d\n", nilai);
-    for ( x = 1; x <=10; x++){
-        printf("%d\n",x);
-    }
+    char nama[100], alamat[100], kuliah[100],jurusan[100], kelas[100];
+    int nim;
+    scanf("%d", $nim);
+
     return 0;
 }
