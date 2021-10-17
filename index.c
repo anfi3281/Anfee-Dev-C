@@ -12,6 +12,7 @@ int main(){
 
     D = b-4*a*c;
 
+
     printf("%s%d\n", "Nilai Diskriminannya adalah ", D);
     return 0;
 }
