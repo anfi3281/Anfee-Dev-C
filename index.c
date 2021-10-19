@@ -10,7 +10,7 @@ int main(){
     printf("%s", "Nilai c : ");
     scanf("%d", &c);
 
-    D = b-4*a*c;
+    D = b*b-4*a*c;
 
 
     printf("%s%d\n", "Nilai Diskriminannya adalah ", D);
