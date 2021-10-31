@@ -1,31 +1,25 @@
 #include <stdio.h>
-#include <string.h>
 
 int main(){
-    char nama[100], alamat[100], kuliah[100],jurusan[100], kelas[100];
-    int nilai, nim;    
+    int A,B,C;
+    printf("Masukkan nilai A : ");
+    scanf("%d", &A);
+    printf("Masukkan nilai B : ");
+    scanf("%d", &B);
+    printf("Masukkan nilai C : ");
+    scanf("%d", &C);
 
-    printf("Nama : ");
-    gets(nama);
-    printf("Alamat : ");
-    gets(alamat);
-    printf("Kuliah : ");
-    gets(kuliah);
-    printf("Jurusan : ");
-    gets(jurusan);
-    printf("Kelas : ");
-    gets(kelas);
-    printf("NIM : ");
-    scanf("%d", &nim);
+    if (A>B) {
+        if(A>C){
+            printf("Nilai A : %d\n", A);
+        } else {
+            printf("Nilai C : %d\n", C);
+        } 
+    } else if (B>C) {
+        printf("Nilai B : %d\n", B);
+    } else {
+        printf("nilai C : %d\n", C);
+    }
 
-    printf("\nNama Anda adalah %s\n", nama);
-    printf("Alamat Anda adalah %s\n", alamat);
-    printf("Kuliah di %s\n",kuliah);
-    printf("Jurusan %s\n", jurusan);
-    printf("Kelas %s\n", kelas);
-    printf("NIM Anda adalah %d\n", nim);
-
-    // scanf("%d", &nilai);
-    // printf("%s%d","sdagdgnama kamu adalah\t", nilai);
     return 0;
 }
